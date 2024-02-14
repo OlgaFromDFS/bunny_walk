@@ -8,17 +8,12 @@ app.use(cors());
 let counter = 0;
 
 app.get('/', (req, res) => {
-
   res.send(String(counter));
-
-  res.end();
 });
 
 app.post('/', (req, res) => {
   counter++;
   res.send(String(counter));
-
-  res.end();
 });
 
 app.listen(port, () => {
