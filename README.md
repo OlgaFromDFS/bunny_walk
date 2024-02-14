@@ -2,7 +2,11 @@
 
 # Usage
 
-To interact with frontend, you need to install the cors module.
+git clone
+npm install
+npm start
+
+https://github.com/OlgaFromDFS/bunny_walk_front
 
 # License
 
